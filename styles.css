@@ -1,0 +1,196 @@
+body {
+    font-family: 'Lora', serif;
+    direction: rtl;
+    text-align: center;
+    margin: 20px;
+}
+
+label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+select {
+    font-size: 18px;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+    border: 2px solid #333;
+    background-color: #f9f9f9;
+}
+
+th, td {
+    border: 2px solid #333;
+    padding: 12px;
+}
+
+th {
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
+
+td {
+    background-color: #fff;
+}
+
+td:hover {
+    background-color: #f1f1f1;
+}
+
+.checked {
+    background-color: #cfcfcf;
+}
+
+#footer {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* تنسيق النص hello dikra */
+.welcome-text {
+    font-size: 28px;
+    font-weight: bold;
+    color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* تنسيق العنوان الرئيسي */
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* تكبير حجم قائمة اختيار المادة */
+.subject-dropdown {
+    width: 60%;
+    padding: 15px;
+    font-size: 18px;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #555;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* تنسيق زر المتابعة */
+.continue-button {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+}
+
+.continue-button:hover {
+    background-color: #218838;
+}
+
+/* إضافة بعض التنسيق العام */
+body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+}
+/* تنسيق النص hello dikra */
+.welcome-text {
+    font-size: 28px;
+    font-weight: bold;
+    color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* تنسيق العنوان الرئيسي */
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* تكبير حجم قائمة اختيار المادة */
+.subject-dropdown {
+    width: 60%;
+    padding: 15px;
+    font-size: 18px;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #555;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* تنسيق زر المتابعة */
+.continue-button {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+}
+
+.continue-button:hover {
+    background-color: #218838;
+}
+
+/* إضافة بعض التنسيق العام */
+body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+}
+/* تنسيق الـ Checkbox */
+input[type="checkbox"] {
+    -webkit-appearance: none; /* إزالة النمط الافتراضي للـ Checkbox في المتصفحات الحديثة */
+    appearance: none; /* إزالة النمط الافتراضي للـ Checkbox في المتصفحات الحديثة */
+    background-color: #f0f0f0; /* لون الخلفية الافتراضي */
+    border: 2px solid #ccc; /* الحدود حول الـ Checkbox */
+    border-radius: 5px; /* زوايا دائرية */
+    width: 20px; /* عرض الـ Checkbox */
+    height: 20px; /* ارتفاع الـ Checkbox */
+    position: relative; /* تحديد موضع نسبي */
+    cursor: pointer; /* تغيير شكل المؤشر عند المرور فوق الـ Checkbox */
+    outline: none; /* إزالة الإطار عند النقر */
+}
+
+/* عندما يكون الـ Checkbox مفعلاً */
+input[type="checkbox"]:checked {
+    background-color: #28a745; /* لون الخلفية عند التفعيل */
+    border-color: #28a745; /* لون الحدود عند التفعيل */
+}
+
+/* الإشارة الداخلية عند التفعيل */
+input[type="checkbox"]:checked::after {
+    content: ""; /* إضافة محتوى فارغ */
+    position: absolute; /* تحديد موضع مطلق */
+    left: 5px; /* تحديد المسافة من اليسار */
+    top: 50%; /* تحديد الموضع العمودي في المنتصف */
+    transform: translateY(-50%) rotate(-45deg); /* تدوير الإشارة إلى اليمين */
+    width: 10px; /* عرض الإشارة */
+    height: 5px; /* ارتفاع الإشارة */
+    border: solid white; /* لون الإشارة */
+    border-width: 0 0 2px 2px; /* سمك الإشارة */
+    background-color: transparent; /* خلفية الإشارة شفافة */
+}

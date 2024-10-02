@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جداول التمارين</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>جداول التمارين - <span id="subjectName"></span></h1>
+
+    <label for="subjectSelect">اختر الشعبة:</label>
+    <select id="subjectSelect">
+        <option value="علوم">علوم</option>
+        <option value="رياضيات">رياضيات</option>
+        <option value="تقني رياضي">تقني رياضي</option>
+        <option value="تسيير واقتصاد">تسيير واقتصاد</option>
+    </select>
+
+    <table id="subjectTable">
+        <thead>
+            <tr>
+                <th rowspan="2">السنة</th>
+                <th colspan="5">الموضوع 1</th>
+                <th colspan="5">الموضوع 2</th>
+            </tr>
+            <tr>
+                <th>تمرين 1</th>
+                <th>تمرين 2</th>
+                <th>تمرين 3</th>
+                <th>تمرين 4</th>
+                <th>تمرين 5</th>
+                <th>تمرين 1</th>
+                <th>تمرين 2</th>
+                <th>تمرين 3</th>
+                <th>تمرين 4</th>
+                <th>تمرين 5</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- سيتم ملء الجدول ديناميكيًا بناءً على المادة -->
+        </tbody>
+    </table>
+
+    <script src="tables.js"></script>
+</body>
+</html>
+
